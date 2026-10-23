@@ -1192,7 +1192,7 @@
               <img src="${item.poster}" alt="${item.title}" loading="lazy" class="w-full h-full object-cover max-w-full" />
               <div class="absolute top-2 left-2 flex flex-wrap gap-1">
                 ${item.isLive ? '<span class="px-1.5 py-0.5 rounded bg-rose-600 text-white font-extrabold text-[9px] uppercase">LIVE</span>' : ''}
-                ${item.isOriginal ? '<span class="px-1.5 py-0.5 rounded bg-blue-600/90 text-white font-extrabold text-[9px] uppercase">SPECIALS</span>' : ''}
+                ${item.isOriginal || item.isSpark ? '<span class="px-1.5 py-0.5 rounded bg-blue-600/90 text-white font-extrabold text-[9px] uppercase">SPECIALS</span>' : ''}
               </div>
               <div class="absolute top-2 right-2">
                 <span class="px-1.5 py-0.5 rounded bg-black/75 text-emerald-300 font-mono font-bold text-[10px] border border-emerald-400/30">${item.matchPct}%</span>
