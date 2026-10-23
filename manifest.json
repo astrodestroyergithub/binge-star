@@ -1,0 +1,17 @@
+{
+  "name": "BingeStar — JioHotstar Edition",
+  "short_name": "BingeStar",
+  "description": "Stream blockbuster movies, web-series, live cricket, and originals in 4K UHD.",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#0f1014",
+  "theme_color": "#0056ff",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
